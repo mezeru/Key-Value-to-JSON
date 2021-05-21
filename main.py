@@ -1,4 +1,3 @@
-
 import docx
 import json
 import os
@@ -18,8 +17,9 @@ def getText(filename):
 
 if __name__ == "__main__":
     print("Enter The name of the file : ", end="")
-    name = "Contend.docx"
+    name = "\Content.docx"
     name = str(os.getcwd()) + name
+    print(name)
     try:
         getText(name)
     except:
