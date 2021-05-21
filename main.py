@@ -26,9 +26,6 @@ if __name__ == "__main__":
 
 content_json = json.dumps(dict)
 
-print(content_json)
-
 file = open("content.json", "w+")
 file.write(content_json)
-print("Written Sucessfully")
 file.close()
