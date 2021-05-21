@@ -5,5 +5,5 @@
 - json
 - docx (pip install python-docx)
 
-The Following Script is used in this 
+The Following Script is used here  
 - https://github.com/mezeru/GRE-Flash-Practice/
