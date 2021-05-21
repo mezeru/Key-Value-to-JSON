@@ -4,7 +4,6 @@ import os
 
 dict = {}
 
-
 def getText(filename):
     doc = docx.Document(filename)
     fullText = []
