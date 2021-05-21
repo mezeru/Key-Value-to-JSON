@@ -18,8 +18,7 @@ def getText(filename):
 
 if __name__ == "__main__":
     print("Enter The name of the file : ", end="")
-    name = input()+".docx"
-    print(os.getcwd())
+    name = "Contend.docx"
     name = str(os.getcwd()) + name
     try:
         getText(name)
